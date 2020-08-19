@@ -1,0 +1,24 @@
+.Deck {
+    display: inline-block;
+}
+
+.Deck__stack, .Deck__spread  {
+    display: inline-block;
+    vertical-align: top;
+    margin: 10px 5px;
+}
+
+.Deck__spread-item {
+    display: inline;
+    position: absolute;
+}
+
+.Deck__spread-item.two{
+    margin-left: 30px;
+    z-index: -1;
+}
+
+.Deck__spread-item.three{
+    margin-left: 60px;
+    z-index: -2;
+}

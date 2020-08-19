@@ -1,0 +1,52 @@
+.Card {
+    display: inline-block;
+    padding: 10px;
+    border: 1px solid grey;
+    border-radius: 7px;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, .5);
+    width: 75px;
+    background-color: white;
+    cursor: pointer;
+}
+
+.Card:hover {
+    border: 2px solid blue;
+}
+
+.outline {
+    border: 2px solid blue;
+}
+
+.Card__top {
+    height: 20px;
+}
+
+.Card__bottom {
+    height: 20px;
+    float: right;
+}
+
+.Card__body {
+    text-align: center;
+    height: 75px;
+}
+
+.Card__body span {
+    font-size: 4rem;
+}
+.back {
+    background: url("./back.jpeg");
+    background-position: center;
+    background-size: 105%;
+}
+.empty {
+    background-color: lightsteelblue;
+}
+
+.red {
+    color: red;
+}
+
+.clearfix {
+    clear: both;
+}

@@ -1,0 +1,19 @@
+Deck
+    List<Card>
+
+    + shuffle
+    + getCard
+    + _FlipDeck
+
+
+Card 
+    + Suit
+    + Number
+
+
+Staging Area
+
+
+AcesPlace
+
+
